@@ -1,22 +1,3 @@
-/**
-  * Copyright (c) 2016, zhejiang Unview Technologies Co., Ltd.
-  * All rights reserved.
-  * <http://www.uniview.com/>
-  * -----------------------------------------------------------
-  * Product      :BigData
-  * Module Name  :
-  * Project Name :salut-parent
-  * Package Name :com.uniview.salut.spark.traffic.lsh.json
-  * Date Created :2016/6/15
-  * Creator      :c02132
-  * Description  :
-  * -----------------------------------------------------------
-  * Modification History
-  * Date        Name          Description
-  * ------------------------------------------------------------
-  * 2016/6/15      c02132         BigData project,new code file.
-  * ------------------------------------------------------------
-  */
 package com.cds.learn.lsh.json
 
 import java.text.SimpleDateFormat
@@ -45,7 +26,7 @@ object Json4sUtills {
   //traffic 业务的0x1矩阵比较块
   var compareBlock: List[Double] = _
 
-  //视图库中的video服务需要用到begTime和endTime。begTime和endTime是日期类型，用来读Alluxuio。
+  //video服务需要用到begTime和endTime。begTime和endTime是日期类型，用来读Alluxuio。
   var begTime: String = _
   var endTime: String = _
   //time是traffic和FaceImage的查询solr条件，精确到秒的时间戳。
